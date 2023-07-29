@@ -1,0 +1,71 @@
+.dishes-section {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.dishes-items {
+    width: 100%;
+}
+
+.dishes-items img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+/* Style for dinner */
+.dinner-section {
+    background-image: url("img/bugger.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 300px;
+    padding: 20px 0;
+    margin-top: 15px;
+}
+
+.content {
+    margin-top: 70px;
+    text-align: center;
+
+}
+
+.content h2 {
+    font-size: 60px;
+}
+
+.content a {
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+
+.reservation {
+    text-align: center;
+    background-color: red;
+    color: white;
+    position: sticky;
+    bottom: 0;
+    padding: 10px 0px;
+    border: 3px solid black;
+}
+
+.reservation a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (min-width: 650px) {
+    .reservation {
+        display: none;
+    }
+}

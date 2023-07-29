@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Sumana:wght@700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-menu {
+    background-image: url("img/dish-7.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    height: 300px;
+    padding: 20px 0;
+    margin-top: 15px;
+    position: relative;
+}
+
+.hero-menu h2 {
+    width: 30%;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    padding: 15px 0px;
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+
+.menu-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.tabs {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabs a {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.tabs a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.download {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.download a {
+    background-color: red;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.download a:hover {
+    background-color: white;
+    color: red;
+    border: 2px solid red;
+    font-weight: bold;
+}
+
+.menu-list {
+    display: block;
+    width: 40%;
+    margin: 60px auto 0 auto;
+}
+
+.menu-list p {
+    margin-bottom: 40px;
+}
+
+.menu-list h2 {
+    text-align: left;
+    font-family: 'Cadarville Cursive', cursive;
+}
+
+.menu-list span {
+    font-weight: bold;
+    font-size: 24px;
+}s
+hr {
+    height: 1px;
+    background-color: black;
+}
+
+@media (max-width: 600px) {
+    .tabs a {
+        display: inline-block;
+        margin: 5px 0;
+    }
+
+    .download {
+        width: 70%;
+    }
+
+    .menu-list {
+        width: 80%;
+    }
+
+    .menu-list h2 {
+        font-size: 40px;
+    }
+
+    .hero-menu h2 {
+        width: 80%;
+        font-size: 30px;
+        position: absolute;
+        top: 250px;
+        left: 0px;
+    }
+}

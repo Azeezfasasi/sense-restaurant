@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.call-action {
+    background-color: black;
+    padding: 50px 15px;
+    text-align: center;
+}
+
+.content {
+    display: block;
+    width: 90%;
+    margin: auto;
+    color: white;
+}
+
+.content-title {
+    font-size: 50px;
+}
+
+.action-btn {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.action-btn:hover {
+    background-color: white;
+    color: black;
+    border: 2px inset black;
+    border-radius: 8px;
+
+}
+
+/* style for host a party */
+.party-container {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.party-image {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.party-image img {
+    width: 400px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.party-box {
+    display: inline-block;
+    width: 40%;
+    vertical-align: middle;
+}
+
+.main-box {
+    width:70%;
+    border: 2px solid black;
+    margin-left: 80px;   
+}
+
+.main-box h2 {
+    font-family: cursive;
+}
+
+.main-box hr {
+    border: 1.33px solid black;
+    width: 100%;
+}
+
+.main-box p {
+    padding: 0 10px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.party-box .main-box a {
+    display: block;
+    width: 30%;
+    background-color: black;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.party-box .main-box a:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+@media (max-width: 600px) {
+    .party-container {
+        padding: 20px 0;
+    }
+    .party-image {
+        display: block;
+        width: 95%;
+        margin: 0 auto 20px auto;
+    }
+
+    .party-image img {
+        width: 300px;
+    }
+
+    .party-box {
+        display: block;
+        width: 95%;
+        margin: 0 auto 10px auto;
+    }
+
+    .main-box {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .party-box .main-box a {
+        display: inline-block;
+        margin: 0 5px 10px 5px;
+    }
+
+    .content-title {
+        font-size: 40px;
+    }
+}

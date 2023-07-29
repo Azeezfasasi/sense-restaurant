@@ -1,0 +1,112 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - Sense Resturant</title>
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/dishes.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Start of the header section -->
+    <div class="header-container">
+        <div class="logo">
+            <img src="img/Sense_Acasemy_Logo-transparent.png" alt="">
+        </div>
+        <!-- for large screen -->
+        <div class="nav-links">
+            <a href="index.html">HOME</a>
+            <a href="menu.html">MENUS</a>
+            <a href="about.html">ABOUT</a>
+            <a href="gallery.html">GALLERY</a>
+            <a class="active" href="event.html">EVENTS</a>
+            <a class="reserve" href="reservation.html">RESERVATIONS</a>
+        </div>
+
+        <!-- For small screen -->
+        <button id="openMenuBtn"><i class="fa fa-bars"></i></button>
+        <div class="overlay" id="overlayMenu">
+            <button id="closeMenuBtn"><i class="fa-solid fa-xmark"></i></button>
+              <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="menu.html">MENU</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a class="active" href="event.html">EVENTS</a></li>
+                <li><a class="reserve" href="reservation.html">RESERVATIONS</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="event-image">
+      <img src="img/upcoming-events.jpeg" alt="Upcoming event">
+    </div>
+
+      <!-- Start of the event -->
+    <div class="events-container">
+      <h1>Upcoming Events</h1>
+      <div class="event">
+          <h2>Wine Tasting Dinner</h2>
+          <p><span>Date:</span> August 17, 2023</p>
+          <p><span>Location:</span> Eko Hotel</p>
+          <p><span>Description:</span> This event include a multi meal with a different wine to taste.</p>
+          <a href="reservation.html">Book Reservation</a>
+      </div>
+      <div class="event">
+          <h2>Cooking Class</h2>
+          <p><span>Date:</span> August 1 - August 20, 2023</p>
+          <p><span>Location:</span> Blue Roof, Ikeja</p>
+          <p><span>Description:</span> Sense Resturant offer a cooking class where you can learn how to prepare signature dishes fom the restaurant menu.</p>
+          <a href="reservation.html">Book Reservation</a>
+      </div>
+      <div class="event">
+        <h2>Live Music Night</h2>
+        <p><span>Date:</span> September 13, 2023</p>
+        <p><span>Location:</span> Sense Resturant</p>
+        <p><span>Description:</span> Sense Resturant will host a live music performances, featuring local bands to entertain dinners while you enjoy your meal</p>
+        <a href="reservation.html">Book Reservation</a>
+    </div>
+    <div class="event">
+      <h2>Charity Event</h2>
+      <p><span>Date:</span> October 14, 2023</p>
+      <p><span>Location:</span> Sense Resturant</p>
+      <p><span>Description:</span> Our restaurant will hold a charity event where a portion of the proceeds from the day's sales will be donated to a Charitable cause</p>
+      <a href="reservation.html">Book Reservation</a>
+  </div>
+  </div>
+
+    <!--Start of Footer Section-->
+<footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <div class="col">
+          <h3>About Us</h3>
+          <p>Sense Restaurant is a place with Exquisite flavors, warm ambiance, and attentive service. It is also a culinary haven where memories are savored and cherished</p>
+        </div>
+        <div class="col">
+          <h3>Contact Us</h3>
+          <p>123 Ikorodu Road, Lagos Nigeria</p>
+          <p>Email: info@sensesolutions.com</p>
+          <p>Phone: 08117256648</p>
+        </div>
+        <div class="col">
+          <h3>Follow Us</h3>
+          <ul class="social-media">
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div class="reservation">
+    <a href="reservation.html">BOOK RESERVATIONS</a>
+</div>
+
+<script src="js/header.js"></script>
+</body>
+</html>

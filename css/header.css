@@ -1,0 +1,159 @@
+/* Style for the large screen header */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: block;
+    width: 97%;
+    background-color: white;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-block;
+    width: 35%;
+    vertical-align: middle;
+}
+
+.logo img {
+    width: 150px;
+    height: 60px;
+}
+
+.nav-links {
+    display: inline-block;
+    width: 60%;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    margin: 0 5px;
+}
+
+.nav-links .reserve {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links .reserve:hover {
+    background-color: white;
+    color: black;
+    border: 2px inset black;
+    border-radius: 8px;
+}
+
+.active {
+    border-bottom: 2px solid blue;
+}
+
+/* style for small screen header */
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    display: none;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.overlay ul {
+    list-style: none;
+    padding: 0;
+    margin: 80px 0 0 30px;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+.overlay ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.overlay ul li .reserve {
+    display: block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.overlay ul li .reserve:hover {
+    background-color: deeppink;
+    color: black;
+    border: 2px inset black;
+    border-radius: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#closeMenuBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: black;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 30%;
+    font-size: 30px;
+}
+
+#openMenuBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .header-container {
+        margin: 0 auto;
+    }
+    .logo {
+        display: block;
+        width: 60%;
+    }
+
+    #openMenuBtn {
+        top: 20px;
+        right: 10px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+    #openMenuBtn {
+        display: none;
+    }
+}
